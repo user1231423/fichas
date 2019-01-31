@@ -1,0 +1,52 @@
+body{
+    background-color: #eee;
+}
+
+div{
+    padding: 10px;
+    background-color: white;
+    border: solid 1px #ccc;
+}
+
+#inline-block div{
+    display: inline-block;
+    width: 30%;
+}
+
+#float div{
+    float: left;
+    width: 10%;
+}
+
+.limpar-floats{
+    clear: both;
+}
+
+#flexbox{
+    display:flex;
+    align-items: left;
+}
+
+#flexbox div{
+    flex: 1;
+}
+
+#flexbox{
+    display: flex;
+    justify-content: space-between;
+}
+
+#flexbox div{
+    width: 30%;
+}
+
+#grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+/*
+#flexbox{
+    flex-direction: column-reverse;
+    align-items: center;
+}
+*/

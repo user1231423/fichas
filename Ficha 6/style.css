@@ -1,0 +1,99 @@
+body{
+    background-color: lightgray;
+}
+
+.flex-container1{
+    display: flex;
+    height: 20vh;
+    width: 100%;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+.flex-item{
+    width: 130px;
+    height: 130px;
+    border-radius: 25%;
+}
+
+.verde{
+    background-color: green;
+}
+
+.amarelo{
+    background-color: yellow;
+}
+
+.vermelho{
+    background-color: red;
+}
+
+.texto{
+    background-color: yellow;
+}
+
+.flex-container2{
+    display: flex;
+    height: 20vh;
+    width: 100%;
+    justify-content: center;
+}
+
+.flex-container3{
+    display: flex;
+    height: 20vh;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.flex-container4{
+    display: flex;
+    height: 20vh;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.flex-container5{
+    display: flex;
+    height: 20vh;
+    width: 100%;
+    align-items: flex-end;
+}
+
+.flex-container6{
+    display: flex;
+    height: 20vh;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex-container7{
+    display: flex;
+    height: 20vh;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.flex-container8{
+    display: flex;
+    height: 20vh;
+    width: 100%;
+    justify-content: flex-end;
+}
+
+.flex-container9{
+    display: flex;
+    height: 20vh;
+    width: 100%;
+    flex-direction: column;
+}
+
+.flex-container10{
+    display: flex;
+    height: 20vh;
+    width: 100%;
+    flex-direction: row-reverse;
+    align-items: flex-start !important;
+}
+
